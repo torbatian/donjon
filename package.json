@@ -1,0 +1,29 @@
+{
+  "name": "donjon",
+  "version": "0.0.1",
+  "description": "JWT authentication for hapi.js",
+  "main": "lib/index.js",
+  "repository": "https://github.com/torbatian/donjon.git",
+  "author": "Hamed Torbatian <hamed.tm@gmail.com>",
+  "keywords": [
+    "hapi",
+    "jwt",
+    "authentication"
+  ],
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "hapi": "17.x.x"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "boom": "^7.1.1",
+    "hoek": "^5.0.2",
+    "jsonwebtoken": "^8.1.0"
+  }
+}
